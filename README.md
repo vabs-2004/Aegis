@@ -216,53 +216,6 @@ Access the console at: **`http://localhost:3000`**
 
 ---
 
-## 9. SIH 2026 Presentation Demonstration Walkthrough
-
-Follow this 2-minute walkthrough script during live evaluation:
-
-1. **Open Command Center (`/`)**:
-   - Point out the institutional workstation aesthetic (0% AI slop).
-   - Highlight **ARJUN-04** readiness strip and the historical baseline score of **87 / 100**.
-   - Show the competency matrix highlighting the primary gap: **Multi-contact discrimination (63%) under degraded RF sensing (61%)**.
-   - Click **`[ START RECOMMENDED TRAINING ]`**.
-
-2. **Engage in Live Simulation (`/train`)**:
-   - Observe the custom SVG tactical canvas with concentric radar rings and contour curves.
-   - Show contacts moving along deterministic vectors.
-   - Note the real-time **Simulated Task Load** gauge (`LOW`, `MEDIUM`, `HIGH`) and **Information Decay** telemetry.
-   - Click contact **`D-07`** (the key ambiguous threat vector). Focus brackets lock in steel blue.
-   - Adjust the **Decision Confidence** slider (e.g., 75% — `MODERATE CONFIDENCE`).
-   - Select Classification: `COORDINATED GROUP` or `MILITARY-LIKE SIGNATURE`.
-   - Select Response Pathway: `ESCALATE` or `SIMULATED MITIGATION`.
-   - Click **`[ COMMIT DECISION ]`**. The event is timestamped in the bottom strip with decision-time task load logged.
-   - Click **`[ COMPLETE SESSION & PROCEED TO AAR ]`**.
-
-3. **Inspect After-Action Review (`/aar/[sessionId]`)**:
-   - Point out the **real computed score** calculated dynamically from the trainee's actions.
-   - Highlight the **Primary Training Gap**: Multi-Contact Discrimination (`-31 pt` degradation from single-contact accuracy).
-   - Review the **Performance Under Load** and **Decision Calibration** diagnostic panels.
-   - Launch **Session Replay & What-If Counterfactual**:
-     - Click `[ PLAY ]` on the tactical canvas to review the engagement.
-     - Switch to **`[ WHAT-IF REPLAY ]`** to substitute decisions on contact `D-07` and demonstrate real-time deterministic rescoring (`+7 pts` delta).
-
-4. **Verify The Adaptive Learning Loop**:
-   - Show the 4-step horizontal chain:
-     `LAST SESSION (87)` $\to$ `GAP DETECTED (Multi-contact saturation)` $\to$ `TRAINING FOCUS (Escalate to 6 concurrent contacts)` $\to$ `NEXT SCENARIO (SCN-009)`.
-   - Click **`[ GENERATE TARGETED SCENARIO ]`** to synthesize adapted operational parameters via Groq.
-   - Click **`[ START TARGETED TRAINING ]`** to immediately transition into **`SCN-009`** with adapted target density.
-    - Deliver the closing punchline:
-     > *"AEGIS does not simply evaluate an operator — it understands exactly why they failed and automatically adapts the next training scenario to systematically train away their weakness."*
-
----
-
-## 10. Verification & Quality Gates
-
-The codebase conforms to strict quality standards:
-- **Type Safety**: `npx tsc --noEmit` exits with `0` errors.
-- **Linting**: `npm run lint` (ESLint) passes with `0` errors and `0` warnings.
-- **Build Performance**: `npm run build` compiles with Turbopack in `< 2.0s`.
-
----
 
 ## 11. License & Disclaimers
 
